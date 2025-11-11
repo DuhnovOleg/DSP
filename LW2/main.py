@@ -37,6 +37,7 @@ def main() -> None:
     plt.ylabel('Частота')
 
     plt.tight_layout()
+    plt.savefig('result.png')
     plt.show()
     pass
 
